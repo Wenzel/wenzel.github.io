@@ -27,3 +27,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pygments.rb'
+gem 'jekyll-theme-hyde'
