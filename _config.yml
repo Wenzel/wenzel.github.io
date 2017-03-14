@@ -26,7 +26,7 @@ github_username:  Wenzel
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 theme: minima
 gems:
   - jekyll-feed
