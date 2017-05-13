@@ -2,7 +2,8 @@ title: Blog
 email: mathieu.tarral@protonmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Software engineer, interested in hypervisors, malwares
-  and security research
+  and security research.
+  Working on Virtual Machine Introspection for KVM.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mtarral
