@@ -10,7 +10,9 @@
     </div>
 
     <nav class="sidebar-nav">
-
+      <a class="sidebar-nav-item" href="https://github.com/KVM-VMI/kvm-vmi">KVM-VMI</a>
+      <a class="sidebar-nav-item" href="https://github.com/{{ site.github_username }}">GitHub</a>
+      <a class="sidebar-nav-item" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
@@ -24,10 +26,6 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
-      <a class="sidebar-nav-item" href="https://github.com/KVM-VMI/kvm-vmi">KVM-VMI</a>
-      <a class="sidebar-nav-item" href="https://github.com/{{ site.github_username }}">GitHub</a>
-      <a class="sidebar-nav-item" href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>    
     </nav>
   </div>
 </div>
