@@ -87,8 +87,6 @@ net.DHCPLeases()
 And the new solution
 {% highlight python lineos %}
 import libvirt
-import re
-import subprocess
 import time
 import xml.etree.ElementTree as tree
 
@@ -117,5 +115,5 @@ print(ipaddr)
 {% endhighlight %}
 
 
-This is definitely better because we drop the `subprocess` dependency, and we rely on the `JSON` output of a `libvirt 
-API` !
+This is definitely better because we dropped the `subprocess` and the `re` dependencies, 
+and we rely on the `JSON` output of a `libvirt API` !
