@@ -10,10 +10,10 @@ expected.
 
 For a reminder, here is what you need to work on Nitro:
 
-- Modified QEMU with memory access patch
-- Modified KVM with an API to query nitro events
-- Python Nitro library
-- Libvmi API to read/write the memory access offered by QEMU 
+- Modified [QEMU](https://github.com/KVM-VMI/qemu) with memory access patch
+- Modified [KVM](https://github.com/KVM-VMI/kvm) with an API to query nitro events
+- Python [Nitro](https://github.com/KVM-VMI/nitro) library
+- [Libvmi](https://github.com/KVM-VMI/libvmi) API to read/write the memory access offered by QEMU 
 
 The test procedure for Nitro was quite simple:
 
