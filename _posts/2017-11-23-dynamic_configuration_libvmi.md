@@ -307,3 +307,5 @@ LibVMI Suggestion: set win_kdbg=0x1e9070 in libvmi.conf for faster startup.
 LibVMI Suggestion: set win_kdvb=0xfffff800027eb070 in libvmi.conf for faster startup.
 INFO:root:PsActiveProcessHead 0xfffff80002821b30
 {% endhighlight %}
+
+And here you go, LibVMI is **dynamically** configured, thanks to Rekall ;)
