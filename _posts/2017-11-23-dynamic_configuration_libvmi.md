@@ -139,9 +139,9 @@ But all of this is very tedius at the end.
 To introspect you domain, you have to configure it in advance, get the offsets and put in a config
 file/string/ghashtable or generate a rekall profile.
 
-What if you give a cloud and i want to introspect 30 domains running on it ?
-All of them are different (Windows XP/7/8/10) and they don't have the same patch level (Service packs changes the
-offsets of `EPROCESS` structures...
+What if you are given an entire cloud to monitor ?
+What if all of the virtual machines are different (Windows XP/7/8/10) and they don't have the same patch level ? 
+(remember that Service packs changes the offsets of `EPROCESS` structures...
 
 So what can we do ?
 Go one by one, setup the configuration and introspect them ?
