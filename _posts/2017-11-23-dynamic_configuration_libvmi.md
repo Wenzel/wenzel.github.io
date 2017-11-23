@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
 {
     vmi_instance_t vmi;
     char *name = "winxp";
-    char *config = "{ostype = "Windows"; win_pdbase=0x18; win_pid=0x84; win_tasks=0x88; win_pname=0x174;}"
+    char *config = '{ostype = "Windows"; win_pdbase=0x18; win_pid=0x84; win_tasks=0x88; win_pname=0x174;}'
     vmi_init_complete(&vmi, name, VMI_INIT_DOMAINNAME, NULL,
                         VMI_CONFIG_STRING, (void*)config, NULL));
 }
