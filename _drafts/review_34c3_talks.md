@@ -183,6 +183,39 @@ Notes:
 - mechanism for debugging electronic chips
 - Since Intel Skylake
 
+## Intel ME: Myths and reality
+
+[link](https://media.ccc.de/v/34c3-8782-intel_me_myths_and_reality)
+
+Clear the FUD and understanding the true purposes of Intel ME.
+
+Notes:
+- multiple names
+    * Manageability Engine
+    * Management Engine
+    * Converged Security and Manageability Engine (CSME)
+    * Converged Security Engine (CSE)
+    * Trusted Execution Engine (TXE) for embedded/mobile
+    * Server Platform Services (SPS)
+
+- Myth: NSA backdoor ? US gov ?
+    * ME was initially created to solve IT problems
+    * history of PC remote management (PXE, Alert on LAN, ASF)
+    * history of ME evolutions
+- ME has power states
+    * M0 host is up
+    * M1 host is down, ME partially functional
+    * M-Off, everything is powered off, but can still process network packets
+- it can the PC with a command
+    yes but need the TDT (anti theft module), but it was removed
+- it can read all data on the PC
+    complicated, can access host memory
+- it can't be audited
+    black box audited
+    the firmware is available on the flash and throught software updates
+    you just need to extract it and make sense of it
+- user can't do anything about it
+
 ## Are all BSDs created equally?
 
 [link](https://media.ccc.de/v/34c3-8968-are_all_bsds_created_equally)
