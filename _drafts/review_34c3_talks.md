@@ -3,7 +3,7 @@ layout: post
 title: A review of 34c3 talks
 ---
 
-This is my _personal_ review of the 34c3 talks.
+This is my _personal_ review/notes of the 34c3 talks.
 
 - I haven't watched all of them, and i don't intend to do so
 - the selection is just based on my **personal** taste and opinion on what interests me at the moment.
@@ -124,9 +124,94 @@ And it works even without internet (Wifi, Bluetooth, etc...)
 
 I loved the talk, very good speaker and presentation.
 
+## OONI: Let's Fight Internet Censorship, Together!
+
+[link](https://media.ccc.de/v/34c3-8923-ooni_let_s_fight_internet_censorship_together)
+
+Another talk that i really appreciated, the OONI project aims to watch internet censorship
+by probing websites availability in different countries in the world.
+
+Anyone can install an OONI probe and contribute !
+
+## How risky is the software you use ?
+
+[link](https://media.ccc.de/v/34c3-9225-how_risky_is_the_software_you_use)
+
+What's the real state of the software security you use everyday ?
+
+Can we evaluate it, and give it a score ?
+
+CITL: Improve the state of software security by providing the public with accurate reporting on the security
+of popular software
+
+Notes:
+- provide a security label/grade/score, for consumer software
+- there are **lots** of things that affects the security of a software
+    * Microsoft Excel, executables/libraries are **32 bits** !
+    * no heap protection
+    * do you have the right compilation flags to protect the binaries that you release ?
+- scores and histogram for a complete operating system (all libraries and components)
+    * smart TV, IOT devices, etc...
+- statically analyze all binaries
+- fuzzing to discover **bugs**
+- Firefox on OSX was missing **ALSR**
+
+## Protecting Your Privacy at the Border
+
+[link](https://media.ccc.de/v/34c3-9086-protecting_your_privacy_at_the_border)
+
+What could happen to your digital devices if you cross a border.
+
+You better be prepared, upload everything to the cloud in case the border patrols seize your laptop,
+and know your rights !
+
+Notes:
+- What is a border ?
+    * a point of entry
+    * schengen zone
+    * airports are borders
+- European union: "minimum check"
+    * first line checks
+    * second line check (clarification needed)
+- triggers for second line check
+    * communications difficulties
+    * irregularities in documentation
+    * database mismatches
+- a search for criminal activity will be used as a base for device check
+- Canada
+    * claims a right to examine laptops and smartphone without a warrant
+    * can ask for password on the device
+    * not the cloud
+- authoritarian regimes
+    * Russia, China, Turkey
+    * No Human Rights norms
+    * Turkey arrested 75 people for having an encrypted app on their phones (only installed)
+    * maximum precautions
+- US
+    * ask you to unlock device
+    * provide password
+    * social media handles for OSINT
+    * non US citizen: can deny entry
+    * 2015-2016: 5x increase in device search
+    * password != fingerprint
+    * border agents can force your finger on the phone
+- threat models
+    - travel history
+    * tolerance for hassle and delay vs standup for your rights
+    * sensitivty of the data your carry
+- don't bring your device, leave it at home
+- temporary device
+- **Plan ahead**, have an idea of the scenarios
+    * don't make decision on the fly, under pressure
+- **Don't lie** to the border agent
+- document everything
+- Consent ?
+    * always ask explicitely if it's an order or request
+
+
 # Surveillance
 
-## Uncovering British spies’ web of sockpuppet social media personas 
+## Uncovering British spies’ web of sockpuppet social media personas
 
 [link](https://media.ccc.de/v/34c3-9233-uncovering_british_spies_web_of_sockpuppet_social_media_personas)
 
@@ -156,7 +241,7 @@ Notes:
 - the police extract every possible information on all the devices they can find on a crime scene, so your data might be
   in their database !
 
-# Tech
+# Security
 
 ## Inside Intel Management Engine
 
@@ -240,6 +325,32 @@ Notes:
     * cut support for older architectures
     * code quality
 
+## Hardening Open Source Development
+
+[link](https://media.ccc.de/v/34c3-9249-hardening_open_source_development)
+
+It's really easy to use a software developer environement and transform it into an attack vector.
+
+This talk review the possible vulnerabilities and how to exploit the everyday tools that software developers uses
+
+Notes:
+- Editors
+- shell integrations and terminals
+- versioning
+    - client side git hooks !
+- Releasing
+    * your CDN might get compromised
+- Package registries (NPM....)
+    * package manager free the package name, someone will take the name and upload something else
+    * a maintainer might step down, and leave the commit right to a random person
+    * a maintainer's credentials might leak
+- Underhanding code
+    * phishing URL
+    * invisible code in browser, just copy paste !
+    * hiding characters from `cat`
+    * hiding code from `git diff` !
+
+
 # AI
 
 ## Deep-learning blindspots
@@ -265,7 +376,7 @@ Notes:
 
 # Misc
 
-## Organisational Structures for Sustainable Free Software Development 
+## Organisational Structures for Sustainable Free Software Development
 
 [link](https://media.ccc.de/v/34c3-9087-organisational_structures_for_sustainable_free_software_development)
 
