@@ -113,8 +113,11 @@ For the rest, you can see the output of the `pslist` plugin =)
 It's your turn now, try your favorite `Rekall` plugin, and enjoy the pleasure
 of live memory forensics without memory dump !
 
-Note: a more general syntax is available, you can skip the hypervisor:
+Note1: You may need to `export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib"`.
+
+Note2: a more general syntax is available, you can skip the hypervisor:
 
     vmi:///windows_7
 
 `KVM` will be automatically detected !
+
