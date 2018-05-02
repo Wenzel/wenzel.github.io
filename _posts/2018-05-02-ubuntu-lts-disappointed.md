@@ -54,7 +54,7 @@ Yay.
 
 # 2 - NetworkManager
 
-We continue with the second one, `NetworkManager`, which was sometimes completely absent when Ubuntu finishes its booting sequence
+We continue with the second one, `NetworkManager`, which was sometimes completely absent when Ubuntu finished its booting sequence
 and arrived on the Desktop.
 
 I simply had no network, because `NetworkManager` was `inactive` !
@@ -77,15 +77,13 @@ The third one: when i had to start `Firefox` for the first time after booting, I
 
 I was afraid that it might crash `Ubuntu`.
 
-Sometimes, a bug in the `i915` kernel module was freezing the window manager when `Firefox` was trying to maximize its main window.
+Sometimes, a bug in the `i915` kernel module was freezing the window manager when `Firefox` was maximizing its main window.
 
 And you are good for a reboot, and all that it implies (`LVM` password, account password, restarting `NetworkManager` if dead ...)
 
 # 4 - Crashes
 
 And now the best, i had crashes, crashes everywhere !
-
-My desktop was filled with those little bug report windows !!
 
 A few samples of my selection:
 
