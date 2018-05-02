@@ -19,4 +19,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-paginate: 3
+paginate: 1
