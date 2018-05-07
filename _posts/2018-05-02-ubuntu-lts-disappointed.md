@@ -103,6 +103,10 @@ A few samples of my selection:
 
 ![unity-setting-daemon]({{ "/public/images/ubuntu_bug/unit-settings-daemon.png" | absolute_url }})
 
+## Vim
+
+![vim]({{ "/public/images/ubuntu_bug/vim_basic.png" | absolute_url }})
+
 And to this day, everytime `Ubuntu` boots and I login, I am greeted by a bug report:
 
 ![after-login]({{ "/public/images/ubuntu_bug/after_login.png" | absolute_url }})
