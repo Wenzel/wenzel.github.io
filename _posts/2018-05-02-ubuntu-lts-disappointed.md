@@ -36,7 +36,7 @@ So what are you supposed to do ?
 
 Well, remove the kernel module, and load it again. It fixes the bug.
 
-That's how the following ended up in my bash history:
+That's how the following command ended up in my bash history:
 
 ~~~
 $ sudo modprobe -r iwlwifi && sudo modprobe iwlwifi
